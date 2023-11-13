@@ -6,6 +6,8 @@ COPY . /app
 
 WORKDIR /app
 
+EXPOSO 3000
+
 RUN npm install
 
 ENTRYPOINT [ "npm", "start" ]
